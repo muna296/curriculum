@@ -6,7 +6,7 @@
            echo 'Fizz!';
        }elseif($i % 5 == 0){
            echo 'Buzz!';
-       }else(!($i % 3 == 0)&&!($i % 5 == 0)){
+       }else(!($i % 3 == 0 &&! $i % 5 == 0)){
            echo $i;
        }
            echo "\n";
